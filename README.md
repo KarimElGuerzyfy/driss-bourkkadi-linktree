@@ -22,6 +22,8 @@ The page features a modern glassmorphism design on desktop, with a full-body bac
 - Profile section with avatar, name, and bio
 - Social links: Facebook, Béhance, WhatsApp, LinkedIn, Instagram
 - Instagram button with custom brand gradient
+- Accessible icon-only buttons with aria-labels
+- Click/tap animation feedback on all buttons
 - Component-based architecture
 
 ## Project Structure
@@ -34,6 +36,13 @@ src/
 ├── App.tsx
 ├── index.css
 └── main.tsx
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
 
 ## Status
 

@@ -12,8 +12,7 @@ function App() {
         <img
           src="/bg-photo.png"
           alt=""
-          className="hidden min-[1440px]:block absolute left-10 bottom-20 w-190 object-contain object-bottom pointer-events-none"
-          style={{ zIndex: 9999, filter: "drop-shadow(0px 70px 20px rgba(0,0,0,0.7))" }}
+          className="hidden min-[1440px]:block absolute left-10 bottom-20 w-190 object-contain object-bottom pointer-events-none z-9999 drop-shadow-[0_70px_20px_rgba(0,0,0,0.7)]"
         />
       </div>
     </div>
