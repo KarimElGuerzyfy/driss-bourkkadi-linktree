@@ -12,9 +12,9 @@ function LinkButton({ icon, href, label, background }: LinkButtonProps) {
       target="_blank"
       rel="noopener noreferrer"
       aria-label={label}
-      className={`flex items-center justify-center w-full rounded-full h-12 min-[1440px]:h-19 shadow-[0_4px_15px_rgba(0,0,0,0.3)] transition-transform active:scale-95 ${background}`}
+      className={`flex items-center justify-center w-full rounded-full h-12 sm:h-19 shadow-[0_4px_15px_rgba(0,0,0,0.3)] transition-transform active:scale-95 ${background}`}
     >
-      <img src={icon} alt="" className="w-22 min-[1440px]:w-25 h-12 min-[1440px]:h-19 object-contain" />
+      <img src={icon} alt="" className="w-22 sm:w-25 h-12 sm:h-19 object-contain" />
     </a>
   );
 }

@@ -11,7 +11,7 @@ function ProfileCard() {
       <h1 className="text-white font-bold text-xl min-[1440px]:text-2xl uppercase">
         {profileData.name}
       </h1>
-      <p className="text-white/90 text-sm min-[1440px]:text-base leading-relaxed text-justify font-semibold">
+      <p className="text-white/90 text-sm sm:text-base leading-relaxed text-justify font-semibold">
         {profileData.bio}
       </p>
     </div>
