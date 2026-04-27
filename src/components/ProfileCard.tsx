@@ -8,10 +8,10 @@ function ProfileCard() {
         alt={profileData.name}
         className="w-24 h-24 rounded-full object-cover shadow-lg"
       />
-      <h1 className="text-white font-bold text-2xl uppercase">
+      <h1 className="text-white font-bold text-xl min-[1440px]:text-2xl uppercase">
         {profileData.name}
       </h1>
-      <p className="text-white/90 text-base leading-relaxed text-justify font-semibold">
+      <p className="text-white/90 text-sm min-[1440px]:text-base leading-relaxed text-justify font-semibold">
         {profileData.bio}
       </p>
     </div>
